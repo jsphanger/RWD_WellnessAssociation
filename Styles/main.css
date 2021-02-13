@@ -127,7 +127,7 @@ nav{
 }
 
     #boxstylecallouts button{
-        color:white;
+        color:black;
         background-color: #FF9300;
         border:1px solid #707070;
         -webkit-border-radius: 15px;
@@ -350,5 +350,12 @@ nav{
         width:225px;
         height:50px;
         
+    }
+}
+/* Menu adjustment for tilted phones */
+@media only screen and (max-height:540px){
+    nav ul{
+        padding-top:30vh;
+        height: 70vh;
     }
 }
