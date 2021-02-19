@@ -265,7 +265,7 @@ nav{
         font-size:14px;
     }
     #boxstylecallouts .card{
-        width:150px;
+        padding: .75rem;
     }
 }
 
